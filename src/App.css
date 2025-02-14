@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .input{
+    margin:10px;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  
+  .input-box{
+    display: flex;
+    justify-content: center;
+  }
