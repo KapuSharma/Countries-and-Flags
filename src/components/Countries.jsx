@@ -2,17 +2,17 @@
 import React from "react";
 import "./Countries.css";
 
-export default function Countries({Data}) {
+export default function Countries({ flag, name}) {
   return (
     <div className="countryCard">
       <div>
         <img
-          src={Data.png}
-          alt="country_flag"
+          src={flag}
+          alt= {`flag of ${name}`}
           style={{ width: "100px", height: "100px" }}
         />
       </div>
-      <h2>{Data.common}</h2>
+      <h2>{name}</h2>
     </div>
   );
 }
