@@ -42,7 +42,7 @@ function App() {
     clearTimeout(debounceTimeout);
     const newTimeout = setTimeout(() => {
       performSearch(event.target.value);
-    }, 5000);
+    }, 500);
     return newTimeout;
   };
 
